@@ -1,0 +1,7 @@
+"Comment","Designator","Footprint","LCSC"
+"100nF","C1, C2, ","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C14663"
+"EMI_Filter_LL","FL1, ","Inductor_SMD:L_CommonMode_Wuerth_WE-SL2","C261397"
+"USB_B_Micro","J1, ","Connector_USB:USB_Micro-B_Molex-105017-0001","C505111"
+"Screw_Terminal_01x02","J2, ","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","C8465"
+"MMCX","J3, J4, ","0my_footprints:MMCX_JLC","C530664"
+"ACS712xLCTR-05B","U1, ","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C44471"

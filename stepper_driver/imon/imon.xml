@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nams/Documents/projects/kicad/stepper_driver/imon/imon.sch</source>
+    <date>Wednesday, August 18, 2021 at 08:54:38 AM</date>
+    <tool>Eeschema (5.1.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>imon.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ACS712xLCTR-05B</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</datasheet>
+      <fields>
+        <field name="LCSC">C44471</field>
+        <field name="MPN">ACS712ELCTR-05B-T</field>
+      </fields>
+      <libsource lib="Sensor_Current" part="ACS712xLCTR-05B" description="±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138F135</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C505111</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613935D3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61394C26</tstamp>
+    </comp>
+    <comp ref="FL1">
+      <value>EMI_Filter_LL</value>
+      <footprint>Inductor_SMD:L_CommonMode_Wuerth_WE-SL2</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb</datasheet>
+      <fields>
+        <field name="LCSC">C261397</field>
+      </fields>
+      <libsource lib="Device" part="EMI_Filter_LL_1423" description="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61395E18</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MMCX</value>
+      <footprint>0my_footprints:MMCX_JLC</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C530664</field>
+        <field name="MPN">KH-MMCX-Z</field>
+      </fields>
+      <libsource lib="0my_intf" part="MMCX" description="MMCX vertical"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61397537</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>MMCX</value>
+      <footprint>0my_footprints:MMCX_JLC</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C530664</field>
+        <field name="MPN">KH-MMCX-Z</field>
+      </fields>
+      <libsource lib="0my_intf" part="MMCX" description="MMCX vertical"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613986FA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8465</field>
+        <field name="MPN">WJ500V-5.08-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6139999C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6139DD1D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0JLC" part="100nF">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0my_intf" part="MMCX">
+      <description>MMCX vertical</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MMCX</field>
+        <field name="Footprint">0my_footprints:MMCX_JLC</field>
+        <field name="LCSC">C530664</field>
+        <field name="MPN">KH-MMCX-Z</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="EMI_Filter_LL_1423">
+      <description>EMI 2-inductor filter, pin-connections 1-4 and 2-3</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Bourns*SRF0905*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">EMI_Filter_LL_1423</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current" part="ACS712xLCTR-05B">
+      <aliases>
+        <alias>ACS712xLCTR-20A</alias>
+        <alias>ACS712xLCTR-30A</alias>
+        <alias>ACS713xLCTR-20A</alias>
+        <alias>ACS713xLCTR-30A</alias>
+        <alias>ACS714xLCTR-05B</alias>
+        <alias>ACS714xLCTR-20A</alias>
+        <alias>ACS714xLCTR-30A</alias>
+        <alias>ACS714xLCTR-50A</alias>
+        <alias>ACS715xLCTR-20A</alias>
+        <alias>ACS715xLCTR-30A</alias>
+        <alias>ACS724xLCTR-05AB</alias>
+        <alias>ACS724xLCTR-10AB</alias>
+        <alias>ACS724xLCTR-10AU</alias>
+        <alias>ACS724xLCTR-20AB</alias>
+        <alias>ACS724xLCTR-20AU</alias>
+        <alias>ACS724xLCTR-30AB</alias>
+        <alias>ACS724xLCTR-30AU</alias>
+        <alias>ACS724xLCTR-50AB</alias>
+        <alias>ACS725xLCTR-10AU</alias>
+        <alias>ACS725xLCTR-20AB</alias>
+        <alias>ACS725xLCTR-20AU</alias>
+        <alias>ACS725xLCTR-30AB</alias>
+        <alias>ACS725xLCTR-30AU</alias>
+        <alias>ACS725xLCTR-40AB</alias>
+        <alias>ACS725xLCTR-50AB</alias>
+      </aliases>
+      <description>±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9m*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS712xLCTR-05B</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="IP-" type="passive"/>
+        <pin num="4" name="IP-" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="FILTER" type="passive"/>
+        <pin num="7" name="VIOUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0JLC">
+      <uri>/Users/nams/Documents/projects/kicad/libraries/JLC/0JLC.lib</uri>
+    </library>
+    <library logical="0my_intf">
+      <uri>/Users/nams/Documents/projects/TES/TESelectronics/prototypes/libraries/0my_intf.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>/Library/Application Support/kicad/library/Sensor_Current.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="FL1" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(FL1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="FL1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(FL1-Pad2)">
+      <node ref="J1" pin="5"/>
+      <node ref="FL1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="FL1" pin="4"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>
