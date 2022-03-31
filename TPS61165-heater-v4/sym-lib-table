@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TPS61165-heater-rescue)(type Legacy)(uri ${KIPRJMOD}/TPS61165-heater-rescue.lib)(options "")(descr ""))
+  (lib (name TPS61165-heater-v4-rescue)(type Legacy)(uri ${KIPRJMOD}/TPS61165-heater-v4-rescue.lib)(options "")(descr ""))
+)

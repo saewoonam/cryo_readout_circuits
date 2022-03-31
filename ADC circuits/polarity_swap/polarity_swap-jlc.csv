@@ -1,0 +1,6 @@
+"Comment","Designator","Footprint","LCSC"
+"Conn_01x02_Male_2.54mm","J1, J2, J3, J4, J12, ","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","C492401"
+"BSS84","Q1, ","Package_TO_SOT_SMD:SOT-23","C8492"
+"2N7002","Q2, ","Package_TO_SOT_SMD:SOT-23","C8545"
+"200","R1, R2, R3, R4, ","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C8218"
+"AQW212EHAX","U1, U2, ","0my_footprints:SMD-8_L9.8-W6.4-P2.54-LS10.0-BL","C161815"

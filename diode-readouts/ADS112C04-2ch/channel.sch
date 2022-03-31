@@ -717,4 +717,17 @@ Text Label 7450 5050 0    50   ~ 0
 scl
 Wire Wire Line
 	2700 2900 2700 3700
+$Comp
+L Jumper:Jumper_3_Open JP9
+U 1 1 6249791A
+P 7200 5050
+AR Path="/59ED3D7B/6249791A" Ref="JP9"  Part="1" 
+AR Path="/59ED0E6A/6249791A" Ref="JP1"  Part="1" 
+F 0 "JP9" H 7200 5274 50  0000 C CNN
+F 1 "Jumper_3_Open" H 7200 5183 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7200 5050 50  0001 C CNN
+F 3 "~" H 7200 5050 50  0001 C CNN
+	1    7200 5050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
