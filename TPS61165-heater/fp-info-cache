@@ -1,4 +1,4 @@
-17086793349468875
+17113180690006875
 0my_footprints
 6R3X14W104MV4T
 
@@ -105,6 +105,13 @@ buzzer
 2
 2
 0my_footprints
+CAP-TH_L12.0-W6.0-7.50-D1.0
+
+
+0
+2
+2
+0my_footprints
 CAP_NFM18PS105R0J3D
 0603 (1608 Metric)
 
@@ -125,6 +132,13 @@ Connector
 0
 6
 3
+0my_footprints
+CONN-TH_P5.08_KF127-5.08-2P
+C474906.  KF127-5.08-2P
+
+0
+2
+2
 0my_footprints
 CONV_PDQE10-Q24-D5-D
 
@@ -154,6 +168,13 @@ C Radial series Radial pin pitch 5.00mm diameter 10mm height 12.5mm Non-Polar El
 2
 2
 0my_footprints
+Crystal_X49SM49152MSD2SC
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+0my_footprints
 DB9-TH_DT10121-M5N3-4F
 
 
@@ -161,12 +182,19 @@ DB9-TH_DT10121-M5N3-4F
 11
 11
 0my_footprints
+DSUB-TH_6223B-09FWNS0B01
+
+
+0
+11
+10
+0my_footprints
 DSUB-TH_DS1037-09FNAKT74-0CC
 
 
 0
 11
-11
+10
 0my_footprints
 E0505S-1WR3
 XP_POWER  IHxxxxSH, SIP, (https://www.xppower.com/pdfs/SF_IH.pdf), generated with kicad-footprint-generator
@@ -195,6 +223,13 @@ FILTER-SMD_3P-L3.2-W1.8_ACF451832
 0
 3
 3
+0my_footprints
+FILTER-SMD_4P-L4.5-W3.2-BL_CMF4532L_1812
+1812 footprint for Common Mode Inductive filter
+C131445, ACT45L-201-2P-TL000
+0
+4
+4
 0my_footprints
 FILTER-SMD_4P-L8.8-W8.5-TL
 
@@ -259,12 +294,26 @@ LD-TriQ-D572
 8
 8
 0my_footprints
+LED-SEG-TH_12P-L30.0-W14.0-P2.54-S10.16-BL
+
+
+0
+12
+12
+0my_footprints
 LL_FILTER-SMD_4P-L9.2-W6.0-TL
 CYSCM0905RTL-501
 common mode filter
 0
 4
 4
+0my_footprints
+L_ABG08A40
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-80xx, 8.0mmx8.0mm
+inductor taiyo-yuden nr smd
+0
+2
+2
 0my_footprints
 L_CommonMode_Murata_DLW
 API Delevan, Surface Mount Common Mode Bead, 4222 4222R, http://www.delevan.com/seriesPDFs/4222.pdf
@@ -300,6 +349,13 @@ Bridge Rectifier
 0
 4
 4
+0my_footprints
+MMCX-SMD_KH-MMCX-KE-STM
+
+
+0
+5
+2
 0my_footprints
 MMCX_JLC
 http://www.molex.com/pdm_docs/sd/734151471_sd.pdf
@@ -363,6 +419,13 @@ PLT10H
 0
 4
 4
+0my_footprints
+PWRM-TH_AXXXXS-2W
+
+
+0
+5
+5
 0my_footprints
 QFP-8_4x4_Pitch1.2mm
 
@@ -441,12 +504,26 @@ Photmos footprint smd4
 4
 4
 0my_footprints
+SMD-8_L9.8-W6.4-P2.54-LS10.0-BL
+
+
+0
+8
+8
+0my_footprints
 SMP-MSLD-PCS
 
 
 0
 4
 2
+0my_footprints
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL
+
+
+0
+8
+8
 0my_footprints
 SOIC127P600X175-14N
 14-Lead SOIC_N_
@@ -469,12 +546,26 @@ SON65P300X300X80-9N
 9
 9
 0my_footprints
+SOP-4_L4.4-W4.0-P2.54-LS7.0-BL
+
+
+0
+4
+4
+0my_footprints
 SOP-8_L9.4-W4.4-P2.54-LS6.8-BL
 
 
 0
 8
 8
+0my_footprints
+SOP-16_L10.0-W3.9-P1.27-LS6.0-BL
+
+
+0
+16
+16
 0my_footprints
 SOP4-SMD4-4.6x6.5x2.54P
 
@@ -510,6 +601,13 @@ SOT-343 SC-70-4
 0
 4
 3
+0my_footprints
+SW-SMD_L3.9-W3.0-LS5.0
+switch, ALPS SKRK
+ALPS, SKRK
+0
+2
+2
 0my_footprints
 SolderJumper-3
 SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
@@ -573,6 +671,20 @@ SHOU HAN TYPE-C 6P(073)
 0
 10
 7
+0my_footprints
+USB-C-SMD_TYPE-603-T3
+
+
+0
+10
+7
+0my_footprints
+USB-C_SMD-TYPE-C-31-M-12
+
+
+0
+20
+17
 0my_footprints
 USB_C_Receptacle_TYPE-C-C720630
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf

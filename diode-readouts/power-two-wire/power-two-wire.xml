@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nams/Documents/projects/kicad/chase_dr/diode-readouts/power-two-wire/power-two-wire.sch</source>
+    <date>Friday, April 01, 2022 at 02:06:46 PM</date>
+    <tool>Eeschema (5.1.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power-two-wire.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet605654E7/" tstamps="/605654E8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sheet60E93321/" tstamps="/60E93322/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>i2c_intf.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MH" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A49671B</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MH" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A496851</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MH" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A496973</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MH" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A496A82</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JST_SH_Conn_01x04_i2c_horizontal</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624A59EC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>JST_SH_Conn_01x04_i2c_horizontal</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624AAA14</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>JST_SH_Conn_01x04_i2c_horizontal</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624AD217</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>JST_SH_Conn_01x04_i2c_horizontal</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624AD228</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x06_SPI</value>
+      <footprint>Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371573</field>
+        <field name="MPN">A1001WR-S-06PD01</field>
+      </fields>
+      <libsource lib="0JLC" part="Conn_01x06_SPI" description="JST ZR connector for SPI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624B1246</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624B27A0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>CC0603KRX7R9BB104</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>605729C4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>0603B103K500NT</datasheet>
+      <fields>
+        <field name="LCSC">C57112</field>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">0603B103K500NT</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>605729CF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC847C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8664</field>
+        <field name="MPN">BC847C,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60581ADF</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60588C97</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>B0305S-1WR2</value>
+      <footprint>Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxx3C_THT</footprint>
+      <fields>
+        <field name="LCSC">C80854</field>
+        <field name="MPN">B0305S-1WR2</field>
+      </fields>
+      <libsource lib="0my_power" part="B0305S-1WR2" description=""/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60E88800</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>6.8uH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C87559</field>
+        <field name="MPN">NLCV32T-6R8M-PFR</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60EB3D21</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF_1206_50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+      </fields>
+      <libsource lib="0JLC" part="10uF_1206_50V" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60EBDADE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF_1206_50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C29823</field>
+        <field name="MPN">1206B475K500NT</field>
+      </fields>
+      <libsource lib="0JLC" part="4.7uF_1206_50V" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60EBE33B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60EC2E4F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84455</field>
+        <field name="MPN">GRM32ER61A107ME20L</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60EC45A8</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LP5907MFX-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5907.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C80670</field>
+        <field name="MPN">LP5907MFX-3.3/NOPB</field>
+      </fields>
+      <libsource lib="0JLC" part="LP5907MFX-3.3" description="250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60EC7284</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LP5907MFX-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5907.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C80670</field>
+        <field name="MPN">LP5907MFX-3.3/NOPB</field>
+      </fields>
+      <libsource lib="0JLC" part="LP5907MFX-3.3" description="250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60ECAF07</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="0JLC" part="1uF" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60ECCAB0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="0JLC" part="1uF" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60ECD8E2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="0JLC" part="1uF" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60ECDE32</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="0JLC" part="1uF" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60ECE60A</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60F1E267</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_NO_Small</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>60F1F64C</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>MMCX</value>
+      <footprint>0my_footprints:MMCX_JLC</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C530664</field>
+        <field name="MPN">KH-MMCX-Z</field>
+      </fields>
+      <libsource lib="0my_intf" part="MMCX" description="MMCX vertical"/>
+      <sheetpath names="/Sheet605654E7/" tstamps="/605654E8/"/>
+      <tstamp>6111E01B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="MFR">-</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60E967EF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="MFR">-</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60E967FC</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>ISO1541</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C143028</field>
+        <field name="MPN">ISO1541DR</field>
+      </fields>
+      <libsource lib="Isolator" part="ISO1541" description="I2C Isolator, 2.5 kVrms, Unidirectional Clock, Bidirectional data, SOIC-8"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60E9B514</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>A1001WV-S-04P</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JST">BM04B-SRSS-TB(LF)(SN): C160390</field>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S-04PD01</field>
+      </fields>
+      <libsource lib="0my_intf" part="JST_SH_Conn_01x04_i2c" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60EA2011</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>A1001WV-S-04P</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JST">BM04B-SRSS-TB(LF)(SN) : C160390</field>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S-04PD01</field>
+      </fields>
+      <libsource lib="0my_intf" part="JST_SH_Conn_01x04_i2c" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60EA59E2</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>CC0603KRX7R9BB104</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60EE8FE5</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>CC0603KRX7R9BB104</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>60EE9E5E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="MFR">-</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>6105D9A9</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="MFR">-</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet60E93321/" tstamps="/60E93322/"/>
+      <tstamp>6105E240</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0JLC" part="10uF_1206_50V">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF_1206_50V</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="LCSC">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="1K">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="1uF">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="4.7uF_1206_50V">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF_1206_50V</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="LCSC">C29823</field>
+        <field name="MPN">1206B475K500NT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="Conn_01x06_SPI">
+      <description>JST ZR connector for SPI</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_SPI</field>
+        <field name="Footprint">0my_footprints:JST_B6B-ZR(LF)(SN)</field>
+        <field name="LCSC">C157984</field>
+        <field name="MPN">B6B-ZR(LF)(SN)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="~CS" type="passive"/>
+        <pin num="4" name="SCLK" type="passive"/>
+        <pin num="5" name="MOSI" type="passive"/>
+        <pin num="6" name="MISO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+        <fp>Connector*:JST_SH_*04B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST_SH_Conn_01x04_i2c_horizontal</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</field>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="gnd" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="LP5907MFX-3.3">
+      <description>250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp5907.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907MFX-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="LCSC">C80670</field>
+        <field name="MPN">LP5907MFX-3.3/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="0my_intf" part="JST_SH_Conn_01x04_i2c">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+        <fp>Connector*:JST_SH_*04B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST_SH_Conn_01x04_i2c</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</field>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">BM04B-SRSS-TB(LF)(SN)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="gnd" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0my_intf" part="MMCX">
+      <description>MMCX vertical</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MMCX</field>
+        <field name="Footprint">0my_footprints:MMCX_JLC</field>
+        <field name="LCSC">C530664</field>
+        <field name="MPN">KH-MMCX-Z</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0my_power" part="B0305S-1WR2">
+      <footprints>
+        <fp>*XP?POWER?IHxxxxSH*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">B0305S-1WR2</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxx3C_THT</field>
+        <field name="LCSC">C80854</field>
+        <field name="MPN">B0305S-1WR2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-Vin" type="power_in"/>
+        <pin num="2" name="+Vin" type="power_in"/>
+        <pin num="3" name="0V" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NO_Small">
+      <description>Jumper, normally open, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="ISO1541">
+      <description>I2C Isolator, 2.5 kVrms, Unidirectional Clock, Bidirectional data, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/iso1541.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISO1541</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="SDA1" type="BiDi"/>
+        <pin num="3" name="SCL1" type="input"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND2" type="power_in"/>
+        <pin num="6" name="SCL2" type="output"/>
+        <pin num="7" name="SDA2" type="BiDi"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MH" part="MountingHole">
+      <description>Generic Mounting Hole</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+        <fp>Mounting*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0JLC">
+      <uri>/Users/nams/Documents/projects/kicad/libraries/JLC/0JLC.lib</uri>
+    </library>
+    <library logical="0my_intf">
+      <uri>/Users/nams/Documents/projects/TES/TESelectronics/prototypes/libraries/0my_intf.lib</uri>
+    </library>
+    <library logical="0my_power">
+      <uri>/Users/nams/Documents/projects/TES/TESelectronics/prototypes/libraries/0my_power.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/Library/Application Support/kicad/library/Isolator.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="MH">
+      <uri>/Users/nams/Documents/projects/kicad/chase_dr/diode-readouts/power-two-wire/parts/MH.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/Library/Application Support/kicad/library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(MH4-Pad1)">
+      <node ref="MH4" pin="1"/>
+    </net>
+    <net code="5" name="VD">
+      <node ref="JP3" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="6" name="/analog">
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="7" name="/scl">
+      <node ref="J2" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U8" pin="6"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="8" name="/sda">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J6" pin="3"/>
+      <node ref="U8" pin="7"/>
+      <node ref="J3" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C6" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="C26" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J7-Pad1)">
+      <node ref="J8" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J7-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J7-Pad3)">
+      <node ref="J8" pin="3"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="13" name="Net-(J7-Pad4)">
+      <node ref="J8" pin="4"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="14" name="Net-(J7-Pad5)">
+      <node ref="J8" pin="5"/>
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="15" name="Net-(J7-Pad6)">
+      <node ref="J8" pin="6"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="16" name="Net-(C5-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="17" name="GNDPWR">
+      <node ref="J5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="PS1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="PS1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C2-Pad1)">
+      <node ref="PS1" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="20" name="/Sheet605654E7/i2c_power">
+      <node ref="L1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="23" name="Net-(C6-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J4-Pad3)">
+      <node ref="R18" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="26" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="27" name="VCC">
+      <node ref="U8" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C25" pin="1"/>
+    </net>
+  </nets>
+</export>

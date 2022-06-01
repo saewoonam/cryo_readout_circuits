@@ -1,0 +1,283 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MH:MountingHole MH1
+U 1 1 5A49671B
+P 10700 1200
+F 0 "MH1" H 10700 1300 50  0000 C CNN
+F 1 "MountingHole" H 10700 1100 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 10700 1200 50  0001 C CNN
+F 3 "" H 10700 1200 50  0001 C CNN
+F 4 "-" H 1300 -100 50  0001 C CNN "MFR"
+F 5 "-" H 1300 -100 50  0001 C CNN "MPN"
+F 6 "-" H 1300 -100 50  0001 C CNN "SPN"
+F 7 "-" H 1300 -100 50  0001 C CNN "SPR"
+F 8 "-" H 1300 -100 50  0001 C CNN "SPURL"
+F 9 "" H 10700 1200 50  0001 C CNN "LCSC"
+	1    10700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH2
+U 1 1 5A496851
+P 10700 1450
+F 0 "MH2" H 10700 1550 50  0000 C CNN
+F 1 "MountingHole" H 10700 1350 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 10700 1450 50  0001 C CNN
+F 3 "" H 10700 1450 50  0001 C CNN
+F 4 "-" H 1300 -100 50  0001 C CNN "MFR"
+F 5 "-" H 1300 -100 50  0001 C CNN "MPN"
+F 6 "-" H 1300 -100 50  0001 C CNN "SPN"
+F 7 "-" H 1300 -100 50  0001 C CNN "SPR"
+F 8 "-" H 1300 -100 50  0001 C CNN "SPURL"
+F 9 "" H 10700 1450 50  0001 C CNN "LCSC"
+	1    10700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH3
+U 1 1 5A496973
+P 10700 1750
+F 0 "MH3" H 10700 1850 50  0000 C CNN
+F 1 "MountingHole" H 10700 1650 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 10700 1750 50  0001 C CNN
+F 3 "" H 10700 1750 50  0001 C CNN
+F 4 "-" H 1300 -100 50  0001 C CNN "MFR"
+F 5 "-" H 1300 -100 50  0001 C CNN "MPN"
+F 6 "-" H 1300 -100 50  0001 C CNN "SPN"
+F 7 "-" H 1300 -100 50  0001 C CNN "SPR"
+F 8 "-" H 1300 -100 50  0001 C CNN "SPURL"
+F 9 "" H 10700 1750 50  0001 C CNN "LCSC"
+	1    10700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH4
+U 1 1 5A496A82
+P 10700 2050
+F 0 "MH4" H 10700 2150 50  0000 C CNN
+F 1 "MountingHole" H 10700 1950 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 10700 2050 50  0001 C CNN
+F 3 "" H 10700 2050 50  0001 C CNN
+F 4 "-" H 1300 -100 50  0001 C CNN "MFR"
+F 5 "-" H 1300 -100 50  0001 C CNN "MPN"
+F 6 "-" H 1300 -100 50  0001 C CNN "SPN"
+F 7 "-" H 1300 -100 50  0001 C CNN "SPR"
+F 8 "-" H 1300 -100 50  0001 C CNN "SPURL"
+F 9 "" H 10700 2050 50  0001 C CNN "LCSC"
+	1    10700 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10500 1200
+NoConn ~ 10500 1450
+NoConn ~ 10500 1750
+NoConn ~ 10500 2050
+$Sheet
+S 7750 4600 1250 400 
+U 605654E8
+F0 "Sheet605654E7" 50
+F1 "power.sch" 50
+F2 "digital" O R 9000 4750 50 
+F3 "analog" O R 9000 4850 50 
+$EndSheet
+Text Label 9000 4750 0    60   ~ 0
+digital
+Text Label 9000 4850 0    60   ~ 0
+analog
+$Sheet
+S 6800 1400 1150 600 
+U 60E93322
+F0 "Sheet60E93321" 50
+F1 "i2c_intf.sch" 50
+F2 "scl" O L 6800 1600 50 
+F3 "sda" B L 6800 1700 50 
+$EndSheet
+Text Label 9600 4150 0    60   ~ 0
+digital
+$Comp
+L power:VD #PWR0111
+U 1 1 60EE7DA6
+P 9500 4150
+F 0 "#PWR0111" H 9500 4000 50  0001 C CNN
+F 1 "VD" H 9517 4323 50  0000 C CNN
+F 2 "" H 9500 4150 50  0001 C CNN
+F 3 "" H 9500 4150 50  0001 C CNN
+	1    9500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4150 9600 4150
+Text Label 6800 1600 2    50   ~ 0
+scl
+Text Label 6800 1700 2    50   ~ 0
+sda
+$Comp
+L 0JLC:JST_SH_Conn_01x04_i2c_horizontal J1
+U 1 1 624A59EC
+P 4650 2550
+F 0 "J1" H 4633 2875 50  0000 C CNN
+F 1 "JST_SH_Conn_01x04_i2c_horizontal" H 4633 2784 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+F 4 "C371571" H 4650 2550 50  0001 C CNN "LCSC"
+F 5 "A1001WR-S" H 4650 2550 50  0001 C CNN "MPN"
+	1    4650 2550
+	-1   0    0    -1  
+$EndComp
+Text Label 4850 2550 0    60   ~ 0
+analog
+$Comp
+L power:GND #PWR0101
+U 1 1 624A7B7A
+P 4850 2450
+F 0 "#PWR0101" H 4850 2200 50  0001 C CNN
+F 1 "GND" V 4855 2322 50  0000 R CNN
+F 2 "" H 4850 2450 50  0001 C CNN
+F 3 "" H 4850 2450 50  0001 C CNN
+	1    4850 2450
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 2750 0    50   ~ 0
+scl
+Text Label 4850 2650 0    50   ~ 0
+sda
+$Comp
+L 0JLC:JST_SH_Conn_01x04_i2c_horizontal J2
+U 1 1 624AAA14
+P 4650 3250
+F 0 "J2" H 4633 3575 50  0000 C CNN
+F 1 "JST_SH_Conn_01x04_i2c_horizontal" H 4633 3484 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4650 3250 50  0001 C CNN
+F 3 "~" H 4650 3250 50  0001 C CNN
+F 4 "C371571" H 4650 3250 50  0001 C CNN "LCSC"
+F 5 "A1001WR-S" H 4650 3250 50  0001 C CNN "MPN"
+	1    4650 3250
+	-1   0    0    -1  
+$EndComp
+Text Label 4850 3250 0    60   ~ 0
+analog
+$Comp
+L power:GND #PWR0102
+U 1 1 624AAA1B
+P 4850 3150
+F 0 "#PWR0102" H 4850 2900 50  0001 C CNN
+F 1 "GND" V 4855 3022 50  0000 R CNN
+F 2 "" H 4850 3150 50  0001 C CNN
+F 3 "" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 3450 0    50   ~ 0
+scl
+Text Label 4850 3350 0    50   ~ 0
+sda
+$Comp
+L 0JLC:JST_SH_Conn_01x04_i2c_horizontal J3
+U 1 1 624AD217
+P 4650 3950
+F 0 "J3" H 4633 4275 50  0000 C CNN
+F 1 "JST_SH_Conn_01x04_i2c_horizontal" H 4633 4184 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4650 3950 50  0001 C CNN
+F 3 "~" H 4650 3950 50  0001 C CNN
+F 4 "C371571" H 4650 3950 50  0001 C CNN "LCSC"
+F 5 "A1001WR-S" H 4650 3950 50  0001 C CNN "MPN"
+	1    4650 3950
+	-1   0    0    -1  
+$EndComp
+Text Label 4850 3950 0    60   ~ 0
+analog
+$Comp
+L power:GND #PWR0103
+U 1 1 624AD21E
+P 4850 3850
+F 0 "#PWR0103" H 4850 3600 50  0001 C CNN
+F 1 "GND" V 4855 3722 50  0000 R CNN
+F 2 "" H 4850 3850 50  0001 C CNN
+F 3 "" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 4150 0    50   ~ 0
+scl
+Text Label 4850 4050 0    50   ~ 0
+sda
+$Comp
+L 0JLC:JST_SH_Conn_01x04_i2c_horizontal J6
+U 1 1 624AD228
+P 4650 4650
+F 0 "J6" H 4633 4975 50  0000 C CNN
+F 1 "JST_SH_Conn_01x04_i2c_horizontal" H 4633 4884 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4650 4650 50  0001 C CNN
+F 3 "~" H 4650 4650 50  0001 C CNN
+F 4 "C371571" H 4650 4650 50  0001 C CNN "LCSC"
+F 5 "A1001WR-S" H 4650 4650 50  0001 C CNN "MPN"
+	1    4650 4650
+	-1   0    0    -1  
+$EndComp
+Text Label 4850 4650 0    60   ~ 0
+analog
+$Comp
+L power:GND #PWR0105
+U 1 1 624AD22F
+P 4850 4550
+F 0 "#PWR0105" H 4850 4300 50  0001 C CNN
+F 1 "GND" V 4855 4422 50  0000 R CNN
+F 2 "" H 4850 4550 50  0001 C CNN
+F 3 "" H 4850 4550 50  0001 C CNN
+	1    4850 4550
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 4850 0    50   ~ 0
+scl
+Text Label 4850 4750 0    50   ~ 0
+sda
+$Comp
+L 0JLC:Conn_01x06_SPI J7
+U 1 1 624B1246
+P 4700 5500
+F 0 "J7" H 4718 5925 50  0000 C CNN
+F 1 "Conn_01x06_SPI" H 4718 5834 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" H 4700 5500 50  0001 C CNN
+F 3 "~" H 4700 5500 50  0001 C CNN
+F 4 "C371573" H 4700 5500 50  0001 C CNN "LCSC"
+F 5 "A1001WR-S-06PD01" H 4700 5500 50  0001 C CNN "MPN"
+	1    4700 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J8
+U 1 1 624B27A0
+P 5550 5500
+F 0 "J8" H 5578 5476 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 5578 5385 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5550 5500 50  0001 C CNN
+F 3 "~" H 5550 5500 50  0001 C CNN
+	1    5550 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5300 5350 5300
+Wire Wire Line
+	5350 5400 4900 5400
+Wire Wire Line
+	4900 5500 5350 5500
+Wire Wire Line
+	5350 5600 4900 5600
+Wire Wire Line
+	4900 5700 5350 5700
+Wire Wire Line
+	5350 5800 4900 5800
+$EndSCHEMATC

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 0JLC:TPS61165 U1
+L TPS61165-heater-rescue:TPS61165-0JLC U1
 U 1 1 61311BD9
 P 3650 3500
 F 0 "U1" H 3650 3867 50  0000 C CNN
