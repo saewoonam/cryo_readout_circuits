@@ -280,4 +280,6 @@ Wire Wire Line
 	4900 5700 5350 5700
 Wire Wire Line
 	5350 5800 4900 5800
+Text Notes 2150 6700 0    50   ~ 0
+Fixed i2cpower / VCC missing connection… Board has not been fab’ed with correction 6/2022
 $EndSCHEMATC
