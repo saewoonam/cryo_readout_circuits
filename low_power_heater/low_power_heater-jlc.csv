@@ -1,0 +1,5 @@
+"Comment","Designator","Footprint","LCSC"
+"100nF","C1, C2, ","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C14663"
+"JST-B2B-PH","J1, J2, J3, J4, J5, J7, J8, ","Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal","C295747"
+"Conn_01x05_Male","J6, ","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal","C492413"
+"BH2221FV","U1, ","Package_SO:SSOP-20_4.4x6.5mm_P0.65mm","C2679449"
